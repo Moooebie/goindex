@@ -86,7 +86,7 @@ function list(path){
 	  <ul id="list" class="mdui-list"> 
 	  </ul> 
 	 </div>
-	 <div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0;"></div>
+	 <div id="readme_md" class="mdui-typo" style="display:none; padding: 20px 0; overflow: scroll;"></div>
 	`;
 	$('#content').html(content);
 	
